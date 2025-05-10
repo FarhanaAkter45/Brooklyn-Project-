@@ -1,0 +1,71 @@
+@media (max-width: 992px) {
+
+
+    #banner {
+        text-align: center;
+    }
+
+    #banner .content {
+        width: 100%;
+    }
+
+
+    #banner_2 .conteins {
+        text-align: center;
+    }
+
+    #banner_2 .conteins p {
+        padding: 10px 0;
+    }
+
+
+    #work {
+        margin-top: 20px;
+    }
+
+    #work .conteins {
+        padding: 0;
+        text-align: center;
+    }
+
+    #work .card_1{
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    #work .card_2{
+        text-align: center;
+    }
+
+    #work .card_3{
+        text-align: center;
+    }
+
+    #work .card_4{
+        text-align: center;
+    }
+
+
+
+    #portfolio{
+        padding-top: 20px;
+
+    }
+   
+#portfolio .port_1 {
+    margin-bottom: 15px;
+}
+
+
+
+#project {
+    padding-top: 30px;
+}
+
+
+
+#blog .conteins_2 {
+    margin-top: 10px;
+}
+
+}
