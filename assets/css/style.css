@@ -588,16 +588,6 @@ a {
 #project .conteins .work {
     text-align: center;
 }
-
-
-
-
-
-
-
-
-
-
 #blog .conteins h4 {
     font-family: var(--second-family);
     font-weight: 600;
@@ -646,12 +636,6 @@ a {
     line-height: 133%;
     color: #333;
 }
-
-
-
-
-
-
 
 
 #experience .row {
@@ -750,3 +734,368 @@ a {
 a:hover {
     color: #007BFF;
 }
+/*-------- clients css start ----------*/
+
+#clients {
+    padding: 100px 0;
+}
+
+#clients .contains {
+    margin-bottom: 24px;
+}
+
+#clients .contains h4 {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 117%;
+    text-align: center;
+    color: var(--gray-900);
+    margin-bottom: 24px;
+}
+
+#clients .contains p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 133%;
+    text-align: center;
+    color: var(--gray-400);
+    width: 45%;
+    margin: auto;
+}
+
+/* #clients .d-flex img 
+{
+    display: inline-block;
+}
+
+#clients .d-flex img:hover 
+{
+    cursor: pointer;
+} */
+
+
+
+/*-------- clients css end ----------*/
+
+
+/*-------- testimonial css start ----------*/
+#testimonial {
+    padding-bottom: 60px;
+}
+
+#testimonial .contains h4 {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 117%;
+    text-align: center;
+    color: #333;
+}
+
+#testimonial .contains p:nth-of-type(1) {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 133%;
+    text-align: center;
+    color: var(--gray-400);
+    padding: 24px 0 70px 0;
+    width: 45%;
+    margin: auto;
+}
+
+#testimonial .contains p:nth-of-type(2) {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 133%;
+    text-align: center;
+    color: var(--gray-800);
+    width: 70%;
+    margin: auto;
+    padding-bottom: 24px;
+}
+
+#testimonial .contains p:last-of-type {
+    font-family: var(--second-family);
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 150%;
+    color: #000;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#testimonial .contains h4:last-of-type {
+    font-family: var(--second-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 144%;
+    color: #000;
+    margin-bottom: 8px;
+}
+
+#testimonial .d-flex {
+    justify-content: center;
+}
+
+#testimonial .d-flex .box {
+    background: var(--primary-900);
+    border-radius: 100px;
+    width: 30px;
+    height: 8px;
+    margin-right: 12px;
+}
+
+#testimonial .d-flex .box:nth-child(3) {
+    margin-right: 0;
+}
+
+#testimonial .d-flex .box:nth-child(2),
+#testimonial .d-flex .box:nth-child(3) {
+    height: 8px;
+    width: 8px;
+    border-radius: 100%;
+    background: var(--gray-200);
+}
+
+
+/*-------- testimonial css end ----------*/
+
+/*-------- discuss css start ----------*/
+#discuss
+{
+    position: relative;
+    top: 63px;
+}
+
+#discuss .container {
+    box-shadow: 0 59px 124px 0 rgba(0, 0, 0, 0.12);
+    background: var(--gray-white);
+    border-radius: 15px;
+    padding: 88px;
+}
+
+#discuss .contains>h4 {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 132%;
+    color: var(--gray-900);
+    margin-bottom: 0;
+}
+
+#discuss .contains>p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 133%;
+    color: var(--gray-400);
+    margin: 16px 0 35px 0;
+}
+
+#discuss .contains .card-section .card-box {
+    border-radius: 10px;
+    padding: 24px;
+    background: var(--gray-white);
+    /* outline: 1px solid var(--gray-400); */
+    margin-bottom: 12px;
+}
+
+#discuss .contains .card-section .card-box:hover {
+    box-shadow: 0 12px 64px 0 rgba(28, 25, 25, 0.12);
+    background: var(--gray-white);
+
+}
+
+#discuss .contains .card-section .card-box span:hover {
+    background: var(--primary-400);
+    color: var(--gray-white);
+}
+
+#discuss .contains .card-section .card-box span {
+    display: inline-flex;
+    line-height: 0;
+    align-items: center;
+    background: rgba(237, 216, 255, 0.5);
+    padding: 12px;
+    border-radius: 4px;
+}
+
+#discuss .contains .card-section {
+    padding-right: 30%;
+}
+
+#discuss .contains .card-section .details {
+    padding-left: 13px;
+}
+
+#discuss .contains .card-section .card-box p:last-of-type {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: var(--gray-900);
+    margin-bottom: 0;
+}
+
+#discuss .contains .card-section .card-box p:first-of-type {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 143%;
+    color: var(--gray-700);
+    margin-bottom: 4px;
+}
+
+#discuss .contains .icons a {
+    padding: 15px;
+    color: var(--primary-500);
+    background: var(--gray-white);
+    display: inline-flex;
+    line-height: 0;
+    align-items: center;
+}
+
+#discuss .contains .icons a:hover {
+    box-shadow: 0 12px 64px 0 rgba(28, 25, 25, 0.12);
+    background: var(--primary-500);
+    color: var(--gray-white);
+    border-radius: 4px;
+    padding: 15px;
+    transform: scale(1.05);
+    transform-origin: bottom;
+}
+
+#discuss .form-section>p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 133%;
+    color: var(--gray-400);
+    margin-bottom: 50px;
+}
+
+#discuss .form-section .form-box input,
+#discuss .form-section .form-box textarea {
+    border: none;
+    border-bottom: 2px solid var(--gray-100);
+    border-radius: 0;
+}
+
+#discuss .form-section .form-box input:hover,
+#discuss .form-section .form-box textarea:hover {
+    outline: none;
+    border: none;
+    border-bottom: 2px solid var(--primary-500);
+}
+
+#discuss .form-section .form-box input::placeholder,
+#discuss .form-section .form-box textarea::placeholder {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 133%;
+    color: var(--gray-500);
+}
+
+
+#discuss .form-section .form-box input:hover::placeholder,
+#discuss .form-section .form-box textarea:hover::placeholder {
+
+    color: var(--primary-500);
+}
+
+#discuss .form-section .form-box button span
+{
+    display: inline-flex;
+    line-height: 0;
+    align-items: center;
+    color: var(--gray-white);
+   
+
+}
+
+#discuss .form-section .form-box button 
+{
+    display: inline-flex;
+    line-height: 0;
+    align-items: center;
+    background: var(--primary-500);
+    border-radius: 4px;
+padding: 12px 24px;
+
+border: 0;  
+font-family: var(--font-family);
+font-weight: 600;
+font-size: 16px;
+line-height: 150%;
+color: var(--gray-white);
+}
+
+#discuss .form-section .form-box button:hover 
+{
+    color: var(--gray-800);
+    background: var(--gray-white);
+    outline: 1px solid var(--primary-500);
+}
+
+#discuss .form-section .form-box button:hover iconify-icon
+{
+    color: var(--gray-800);
+}
+
+#discuss .row .col-xl-6
+{
+    margin: 6px;
+    width: calc(50% - 12px);
+}
+
+
+/*-------- discuss css end ----------*/
+
+/*-------- footer css start ----------*/
+
+#footer
+{
+    padding: 160px 0 50px 0;
+    background: var(--gray-800);
+   
+    z-index: -1;
+}
+
+#footer .row p
+{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+color: var(--gray-white);
+margin-bottom: 0;
+}
+
+#footer .d-flex
+{
+    padding: 32px 0;
+}
+
+#footer ul li a 
+{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+color: var(--gray-50);
+padding: 12px;
+}
+
+#footer ul li a:hover
+{
+    color: var(--primary-500);
+}
+
+
+
+/*-------- footer css end ----------*/
