@@ -69,3 +69,145 @@
 }
 
 }
+    /*-------- clients css start ----------*/
+    #clients 
+    {
+        padding: 50px 0;
+    }
+
+    #clients .contains h4 {
+        font-size: 36px;
+    }
+
+    #clients .contains p {
+        width: 100%;
+    }
+
+    /* #clients .d-flex {
+        flex-wrap: wrap;
+        
+    }
+
+    #clients .d-flex img 
+    {
+        margin-left: 90px ;
+    } */
+
+
+
+    /*-------- clients css end ----------*/
+
+
+    /*-------- testimonial css start ----------*/
+
+    #testimonial
+    {
+        padding-bottom: 50px;
+    }
+
+    #testimonial .contains h4 
+    {
+        font-size: 36px;
+        margin-bottom: 0;
+    }
+
+    #testimonial .contains p:nth-of-type(1)
+{
+    
+    padding: 20px 0 ;
+    width: 100%;
+    text-align: justify;
+    
+}
+
+#testimonial .contains p:nth-of-type(2)
+{
+  
+    width: 100%;
+    text-align: justify;
+    padding-bottom: 24px;
+}
+
+#testimonial .contains p:last-of-type 
+{
+margin-bottom: 30px;
+}
+    /*-------- testimonial css end ----------*/
+
+
+/*-------- discuss css start ----------*/
+#discuss 
+{
+    top: 0;
+}
+
+#discuss .contains .card-section
+{
+    padding: 0;
+    margin-top: 30px;
+}
+
+#discuss .contains .card-section .row 
+{
+   margin: 0 5px;
+}
+
+#discuss .container 
+{
+    padding: 30px 0;
+  
+}
+
+#discuss .contains>p
+{
+   
+    margin: 0 5px;
+}
+
+#discuss .contains>h4 
+{
+    text-align: center;
+}
+
+#discuss .contains .icons
+{
+    justify-content: center;
+    margin: 30px 0;
+}
+
+#discuss .row .col-xl-6
+{
+    
+    width: calc(100% - 12px);
+}
+
+#discuss .form-section .form-box  
+{
+    text-align: center;
+}
+/*-------- discuss css end ----------*/
+
+/*-------- footer css start ----------*/
+#footer 
+{
+    padding: 50px 0;
+    text-align: center;
+}
+
+#footer .col-xl-6
+{
+margin-top: 20px;
+margin-left: 40px;   
+
+}
+
+#footer .row p
+{
+    margin-top: 20px;
+    text-align: center;
+}
+/*-------- footer css end ----------*/
+
+
+
+}
